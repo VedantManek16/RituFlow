@@ -1,0 +1,25 @@
+{
+  "districts": [
+    { "name": "West Highlands", "enterprises": 384, "avgRiskScore": 58, "status": "Medium Risk", "color": "text-[orange]" },
+    { "name": "East Plains", "enterprises": 412, "avgRiskScore": 84, "status": "Low Risk", "color": "text-primary" },
+    { "name": "North Valley", "enterprises": 272, "avgRiskScore": 72, "status": "Low Risk", "color": "text-primary" },
+    { "name": "Central Plains", "enterprises": 180, "avgRiskScore": 41, "status": "High Risk", "color": "text-error" }
+  ],
+  "sectors": [
+    { "name": "Dairy", "activeCount": 420, "avgCreditScore": 710, "outstandingPercentage": 32, "status": "Stable" },
+    { "name": "Cereals", "activeCount": 510, "avgCreditScore": 680, "outstandingPercentage": 45, "status": "Volatile" },
+    { "name": "Poultry", "activeCount": 218, "avgCreditScore": 620, "outstandingPercentage": 60, "status": "High Risk" },
+    { "name": "Horticulture", "activeCount": 100, "avgCreditScore": 740, "outstandingPercentage": 22, "status": "Growth" }
+  ],
+  "riskDistribution": {
+    "healthy": 1048,
+    "medium": 162,
+    "high": 38,
+    "total": 1248
+  },
+  "districtTrends": [
+    { "district": "West Highlands", "q1": 55, "q2": 60, "q3": 52, "q4": 58 },
+    { "district": "East Plains", "q1": 78, "q2": 82, "q3": 85, "q4": 84 },
+    { "district": "North Valley", "q1": 68, "q2": 70, "q3": 74, "q4": 72 }
+  ]
+}

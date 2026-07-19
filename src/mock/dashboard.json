@@ -1,0 +1,100 @@
+{
+  "summary": {
+    "currentBalance": 482500,
+    "balanceChange": "+12% from last month",
+    "monthlyIncome": 124000,
+    "upiTransactionsCount": 24,
+    "monthlyExpenses": 68200,
+    "expenseInsight": "Fuel & Seeds leading category",
+    "riskLevel": "Low Risk",
+    "riskTrajectory": "Healthy credit trajectory",
+    "riskScore": 82,
+    "forecastConfidence": 85,
+    "aiExplanation": "Forecast based on seasonal harvest trends and recent UPI activity. Your cash flow stability is highly correlated with the local Kharif crop cycle. Projected surplus is likely from upcoming wholesale harvests."
+  },
+  "cashFlowForecast": {
+    "historical": [
+      { "month": "Mar", "value": 40 },
+      { "month": "Apr", "value": 55 },
+      { "month": "May", "value": 70 }
+    ],
+    "predicted": [
+      { "month": "Jun", "value": 85 },
+      { "month": "Jul", "value": 80 },
+      { "month": "Aug", "value": 95 },
+      { "month": "Sep", "value": 110 },
+      { "month": "Oct", "value": 140 },
+      { "month": "Nov", "value": 120 }
+    ]
+  },
+  "incomeVsExpense": [
+    { "month": "Mar", "income": 80, "expense": 40 },
+    { "month": "Apr", "income": 90, "expense": 30 },
+    { "month": "May", "income": 70, "expense": 50 }
+  ],
+  "upiTrends": [
+    { "month": "Mar", "count": 20 },
+    { "month": "Apr", "count": 45 },
+    { "month": "May", "count": 30 },
+    { "month": "Jun", "count": 60 },
+    { "month": "Jul", "count": 80 }
+  ],
+  "aiInsights": [
+    {
+      "id": "insight-1",
+      "type": "savings",
+      "title": "Increase savings",
+      "description": "Predicted income surplus in May. Redirect 10% to contingency fund.",
+      "icon": "savings",
+      "colorClass": "bg-tertiary-fixed text-tertiary"
+    },
+    {
+      "id": "insight-2",
+      "type": "expense",
+      "title": "Delay inventory purchase",
+      "description": "Bulk seed prices predicted to drop by 15% next week.",
+      "icon": "shopping_cart_off",
+      "colorClass": "bg-error-container text-error"
+    },
+    {
+      "id": "insight-3",
+      "type": "loan",
+      "title": "Apply for working capital loan",
+      "description": "Your high credit health qualifies you for a 6% interest rate.",
+      "icon": "account_balance",
+      "colorClass": "bg-secondary-fixed text-secondary"
+    },
+    {
+      "id": "insight-4",
+      "type": "reduce",
+      "title": "Reduce unnecessary expenses",
+      "description": "Fuel costs are up 18%. Optimize logistics for local deliveries.",
+      "icon": "trending_down",
+      "colorClass": "bg-primary-fixed text-primary"
+    }
+  ],
+  "weather": {
+    "temperature": "29°C",
+    "condition": "Partly Cloudy",
+    "rainfallProbability": "20%",
+    "soilMoisture": "42%",
+    "forecast": "Scattered showers expected late next week. Ideal time for nitrogen application."
+  },
+  "commodityPrices": [
+    { "crop": "Wheat", "price": "₹2,250", "change": "+5.2%", "trend": "up" },
+    { "crop": "Paddy (Rice)", "price": "₹2,180", "change": "-1.8%", "trend": "down" },
+    { "crop": "Cotton", "price": "₹6,800", "change": "+8.4%", "trend": "up" },
+    { "crop": "Soybean", "price": "₹4,600", "change": "+0.5%", "trend": "up" }
+  ],
+  "loans": {
+    "activeCount": 1,
+    "totalOutstanding": 150000,
+    "nextEmi": 8500,
+    "nextEmiDate": "05 Aug 2026",
+    "interestRate": "8.5%",
+    "history": [
+      { "id": "loan-01", "type": "Kisan Credit Card", "amount": 100000, "rate": "7.0%", "status": "Active" },
+      { "id": "loan-02", "type": "Micro Working Capital", "amount": 50000, "rate": "9.5%", "status": "Active" }
+    ]
+  }
+}

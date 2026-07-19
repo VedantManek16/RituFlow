@@ -1,0 +1,105 @@
+[
+  {
+    "id": "1",
+    "name": "Highland Milk",
+    "avatar": "HM",
+    "owner": "Sarah Wanjiku",
+    "sector": "Dairy",
+    "region": "Meru / North",
+    "riskStatus": "Healthy",
+    "riskColor": "text-primary",
+    "riskBg": "bg-primary-fixed",
+    "lastUpdate": "2 hours ago",
+    "balance": 482500,
+    "revenue30d": 124000,
+    "transactions30d": 24,
+    "upiTransactions": 18,
+    "creditScore": 780,
+    "creditRating": "A- Stable",
+    "outstandingLoan": 150000,
+    "nextRepayment": "₹8,500 due Aug 5",
+    "riskScore": 82,
+    "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDfQk8l2KBc4-AfUr7_SwP2SSpsxYMH0s0FOMxM0dD3xzmASf6fD_ftkgXRmveTGb8fG2fvTP93503PvQMuNz6dW1iMnELAy5dMIwDlwhG0ZAKHfkIP64FQBxSldwH4JUndBwUTaoiZqoFi9wxCJecNAPLYMvejbekTDvdd1nMGKUDg7kY2dVCGu7UtocVsF-_0bAIxWFSdQ7htPcSn-aChZblF4sHPZWyB4nvqQDwsNYwE_UNti3CqFQ",
+    "cashFlowHistory": [
+      { "month": "Mar", "income": 95000, "expense": 60000 },
+      { "month": "Apr", "income": 110000, "expense": 55000 },
+      { "month": "May", "income": 124000, "expense": 68200 },
+      { "month": "Jun", "income": 130000, "expense": 65000 },
+      { "month": "Jul", "income": 140000, "expense": 70000 }
+    ],
+    "transactions": [
+      { "id": "t-1", "date": "19 Jul 2026", "description": "Milk Cooperative Payout", "type": "income", "amount": 24500, "method": "UPI" },
+      { "id": "t-2", "date": "18 Jul 2026", "description": "Feed Purchase - Meru Millers", "type": "expense", "amount": 8200, "method": "UPI" },
+      { "id": "t-3", "date": "17 Jul 2026", "description": "Veterinary Services", "type": "expense", "amount": 3500, "method": "Cash" },
+      { "id": "t-4", "date": "15 Jul 2026", "description": "Direct Retail Sales", "type": "income", "amount": 6800, "method": "UPI" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Kiambu Broilers",
+    "avatar": "KB",
+    "owner": "John Kamau",
+    "sector": "Poultry",
+    "region": "Central / West",
+    "riskStatus": "High Risk",
+    "riskColor": "text-error",
+    "riskBg": "bg-error-container",
+    "lastUpdate": "15 mins ago",
+    "balance": 18200,
+    "revenue30d": 45000,
+    "transactions30d": 12,
+    "upiTransactions": 4,
+    "creditScore": 540,
+    "creditRating": "C High Risk",
+    "outstandingLoan": 320000,
+    "nextRepayment": "₹15,000 Overdue",
+    "riskScore": 38,
+    "imageUrl": "https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg",
+    "cashFlowHistory": [
+      { "month": "Mar", "income": 75000, "expense": 70000 },
+      { "month": "Apr", "income": 60000, "expense": 62000 },
+      { "month": "May", "income": 50000, "expense": 58000 },
+      { "month": "Jun", "income": 45000, "expense": 52000 },
+      { "month": "Jul", "income": 45000, "expense": 55000 }
+    ],
+    "transactions": [
+      { "id": "t-201", "date": "19 Jul 2026", "description": "Feed Purchase - Poultry Depot", "type": "expense", "amount": 12000, "method": "UPI" },
+      { "id": "t-202", "date": "16 Jul 2026", "description": "Retail Egg Sales", "type": "income", "amount": 3200, "method": "Cash" },
+      { "id": "t-203", "date": "12 Jul 2026", "description": "Water Bill", "type": "expense", "amount": 2500, "method": "UPI" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Viwanda Grains",
+    "avatar": "VG",
+    "owner": "David Kiprop",
+    "sector": "Cereals",
+    "region": "Nakuru / Rift",
+    "riskStatus": "Medium Risk",
+    "riskColor": "text-[orange]",
+    "riskBg": "bg-orange-100",
+    "lastUpdate": "5 hours ago",
+    "balance": 182400,
+    "revenue30d": 92000,
+    "transactions30d": 19,
+    "upiTransactions": 12,
+    "creditScore": 660,
+    "creditRating": "B Stable",
+    "outstandingLoan": 80000,
+    "nextRepayment": "₹6,000 due Aug 12",
+    "riskScore": 65,
+    "imageUrl": "https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg",
+    "cashFlowHistory": [
+      { "month": "Mar", "income": 80000, "expense": 65000 },
+      { "month": "Apr", "income": 85000, "expense": 60000 },
+      { "month": "May", "income": 88000, "expense": 72000 },
+      { "month": "Jun", "income": 90000, "expense": 70000 },
+      { "month": "Jul", "income": 92000, "expense": 68000 }
+    ],
+    "transactions": [
+      { "id": "t-301", "date": "19 Jul 2026", "description": "Wholesale Maize Sale", "type": "income", "amount": 42000, "method": "UPI" },
+      { "id": "t-302", "date": "18 Jul 2026", "description": "Tractor Hire Payment", "type": "expense", "amount": 15000, "method": "UPI" },
+      { "id": "t-303", "date": "14 Jul 2026", "description": "Fertilizer Stocking", "type": "expense", "amount": 22000, "method": "UPI" }
+    ]
+  }
+]
