@@ -33,37 +33,26 @@ export default function Sidebar() {
   const activeMenu = isOfficer ? officerMenu : enterpriseMenu;
 
   return (
-    <aside className="fixed left-0 top-0 h-full flex flex-col pt-20 pb-8 px-4 z-40 bg-surface-container-lowest dark:bg-surface-container border-r border-outline-variant w-64 shadow-md transition-all hidden md:flex">
-      <div className="flex items-center gap-md px-4 mb-xl">
-        <div className="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center text-on-primary-container font-bold">
-          RF
-        </div>
-        <div>
-          <h2 className="font-label-md text-label-md text-primary font-bold">RituFlow AI</h2>
-          <p className="text-[10px] text-on-surface-variant uppercase tracking-wider font-semibold">Rural Fintech</p>
-        </div>
-      </div>
+    <aside className="fixed left-0 top-0 h-full flex flex-col pt-24 pb-8 px-4 z-40 bg-surface-container-lowest dark:bg-surface-container border-r border-outline-variant w-64 shadow-md transition-all hidden md:flex">
 
-      <nav className="flex-1 space-y-1">
-        {activeMenu.map((item) => {
-          const isActive = location.pathname === item.path;
-          return (
-            <NavLink
-              key={item.name}
-              to={item.path}
-              className={() =>
-                `flex items-center gap-md rounded-lg px-4 py-3 transition-all ${
-                  isActive
-                    ? 'bg-secondary-container dark:bg-on-secondary-container text-on-secondary-container dark:text-on-secondary border-l-4 border-primary shadow-sm font-semibold'
-                    : 'text-on-surface-variant dark:text-on-surface-variant hover:bg-surface-container-high'
-                }`
-              }
-            >
-              <span className="material-symbols-outlined">{item.icon}</span>
-              <span className="font-label-md text-label-md">{item.name}</span>
-            </NavLink>
-          );
-        })}
+
+      <nav className="flex-1 space-y-2">
+        {activeMenu.map((item) => (
+          <NavLink
+            key={item.name}
+            to={item.path}
+            className={({ isActive }) =>
+              `flex items-center gap-md rounded-xl px-4 py-3.5 transition-all overflow-hidden font-semibold ${
+                isActive
+                  ? 'bg-[#e8f5e9] text-[#0d631b] border-l-4 border-[#0d631b] shadow-sm font-bold'
+                  : 'text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface'
+              }`
+            }
+          >
+            <span className="material-symbols-outlined">{item.icon}</span>
+            <span className="font-label-md text-label-md">{item.name}</span>
+          </NavLink>
+        ))}
       </nav>
 
       <button 

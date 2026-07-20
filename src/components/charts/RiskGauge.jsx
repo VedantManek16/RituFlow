@@ -41,8 +41,7 @@ export default function RiskGauge({ score = 82, size = 'medium' }) {
             className="transition-all duration-1000 ease-out"
           />
 
-          {/* Center Point */}
-          <circle cx="80" cy="80" r="5" fill="#191c1d" />
+          {/* Center Point - removed to avoid overlapping with text */}
         </svg>
 
         {/* Text readout */}
